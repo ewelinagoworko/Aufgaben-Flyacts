@@ -1,0 +1,27 @@
+@media (max-width: 920px) {
+	section {
+		margin-left: 180px;
+	}
+}
+
+@media (max-width: 670px) {
+	section {
+		margin-left: 80px;
+	}
+}
+
+@media (max-width: 530px) {
+	section {
+		margin-left: 30px;
+	}
+	
+	div .part p {
+		height: 300px;
+		width: 300px;
+	}
+	
+	div .part h3 {
+		margin-right: 70px;
+	}
+}
+
