@@ -107,7 +107,7 @@ h1 > a:hover:before {
 section {
 	overflow: hidden;
 	color: #F5F5F5;
-	margin-left: 315px;
+	margin-left: 290px;
 
 }
 
@@ -116,7 +116,7 @@ div .part {
 	float: left;
 	text-align: center;
 	padding: 10px;
-	margin-top: 20px;
+	margin: 0 15px;
 }
 
 div .part h3 {
@@ -129,6 +129,8 @@ div .part p {
 	border: 1px groove;
 	padding: 15px;
 	transition: all .3s;
+	width: 400px;
+	height: 250px;
 }
 
 div .part p:hover {
