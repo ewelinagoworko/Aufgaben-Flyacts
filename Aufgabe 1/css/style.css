@@ -1,0 +1,104 @@
+/* General styles */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	background-color: #333;
+}
+
+
+/* Main-nav */
+
+ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+#main-wrapper .navbar li a {
+	display: block;
+	color: #F7F7F7;
+	text-decoration: none;
+	text-align: center;
+    padding: 14px 16px;
+	margin-top: 5px;
+	transition: all .3s;
+}
+
+#main-wrapper .navbar li i {
+	padding: 7px;
+}
+
+#main-wrapper .navbar li a:hover {
+	background-color: #F5F5F5;
+	color: #292929;
+	opacity: 0.5;
+	cursor: e-resize;
+}
+
+/* Header - title */
+
+#main-wrapper .title {
+	background-image: url(../keyboard-2356305.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 300px;
+	text-align: center;
+	padding-top: 35px;
+}
+
+#main-wrapper .title a {
+	text-decoration: none;
+	color: #F5F5F5;
+}
+
+#main-wrapper .title h1 a {
+	font-size: 2em;
+}
+
+#main-wrapper .title h2 a {
+	font-size: 1.5em;
+}
+
+h1 > a {
+  position: relative;
+  color: #F5F5F5;
+  text-decoration: none;
+}
+
+h1 > a:hover {
+  color: #F5F5F5;
+}
+
+h1 > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #F5F5F5;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+h1 > a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+
