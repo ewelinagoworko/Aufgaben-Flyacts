@@ -150,10 +150,27 @@ div .part p:hover {
 .footer-wrapper .social-buttons a {
 	padding: 15px;
 	color: #292929;
-	transition: all .8s ease-in-out;
+	display: inline-block;
 }
 
 .footer-wrapper .social-buttons a:hover {
-	transform: rotate(360deg);
+  animation: social-btn .4s linear;
+	color: #9C9C9C;
 }
+
+@keyframes social-btn {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+.footer-wrapper #tm-copyright {
+	color: #9C9C9C;
+	text-align: center;
+}
+
+
 
