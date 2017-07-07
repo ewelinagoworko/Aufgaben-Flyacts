@@ -108,7 +108,6 @@ h1 > a:hover:before {
 section {
 	overflow: hidden;
 	color: #F5F5F5;
-
 }
 
 div #img1 {
@@ -141,7 +140,7 @@ div .part {
 	text-align: center;
 	padding: 10px;
 	margin-top: 50px;
-	margin-left: 430px;
+	margin-left: 470px;
 	border: 1px groove;
 	background-color: #F5F5F5;
 	color: #292929;
