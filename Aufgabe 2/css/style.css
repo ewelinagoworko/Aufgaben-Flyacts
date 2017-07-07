@@ -106,9 +106,39 @@ h1 > a:hover:before {
 /* Section - Content */
 
 section {
-	overflow: hidden;
+	overflow: auto;
 	color: #F5F5F5;
 }
+
+
+.slide {
+      animation: slide 0.5s forwards;
+      animation-delay: 0.5s;
+}
+
+@keyframes slide {
+            100% {
+                left: 0;
+            }
+        }
+
+        .slideOut {
+            position: absolute;
+            left: 0px;
+            width: 100px;
+            height: 100px;
+           
+            animation: slideOut 0.5s forwards;
+            animation-delay: 0.5s;
+        }
+
+       
+
+        @keyframes slideOut {
+            100% {
+                left: 500px;
+            }
+        }
 
 div #img1 {
 	background-image: url(../img/mockup-863469_1920.jpg);
