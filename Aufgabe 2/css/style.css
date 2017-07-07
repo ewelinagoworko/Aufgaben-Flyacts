@@ -108,38 +108,71 @@ h1 > a:hover:before {
 section {
 	overflow: hidden;
 	color: #F5F5F5;
-	margin-left: 290px;
 
 }
 
+div #img1 {
+	background-image: url(../img/mockup-863469_1920.jpg);
+	background-position: center; 
+	background-size: cover;
+}
+
+div #img2 {
+	background-image: url(../img/board-453758_1920.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+div #img3 {
+	background-image: url(../img/digital-marketing-1433427_1920.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+div #img4 {
+	background-image: url(../img/action-2277292_1920.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
 div .part {
-	width: 400px;
+	width: 500px;
 	float: left;
 	text-align: center;
 	padding: 10px;
-	margin: 0 15px;
+	margin-top: 50px;
+	margin-left: 430px;
+	border: 1px groove;
+	background-color: #F5F5F5;
+	color: #292929;
+	
 }
 
 div .part h3 {
 	font-size: 2em;
-	font-weight: 1000;
+	border: 1px groove;
+	background-color: #F5F5F5;
+	color: #292929;
+	opacity: 0.9;
+	width: 400px;
+	margin-left: 35px;
+	
 }
 
 div .part p {
 	font-size: 1.1em;
 	line-height: 25px;
-	border: 1px groove;
 	padding: 15px;
-	transition: all .3s;
 	width: 400px;
 	height: 250px;
-}
-
-div .part p:hover {
+	border: 1px groove;
 	background-color: #F5F5F5;
 	color: #292929;
-	opacity: 0.7;
+	opacity: 0.9;
+	margin-left: 35px;
 }
+
+
 
 
 /* Footer */
