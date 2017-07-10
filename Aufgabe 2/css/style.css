@@ -106,39 +106,49 @@ h1 > a:hover:before {
 /* Section - Content */
 
 section {
-	overflow: auto;
-	color: #F5F5F5;
+	overflow: hidden;
+	color: #F5F5F5;	
+	position: relative;
+	height: 450px;
 }
 
 
 .slide {
-      animation: slide 0.5s forwards;
-      animation-delay: 0.5s;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+    animation: slide .7s forwards; 
+	 
 }
 
 @keyframes slide {
-            100% {
-                left: 0;
-            }
-        }
+    100% {
+        left: 0;
+	
+		
+    }
+}
 
-        .slideOut {
-            position: absolute;
-            left: 0px;
-            width: 100px;
-            height: 100px;
-           
-            animation: slideOut 0.5s forwards;
-            animation-delay: 0.5s;
-        }
+.slideOut {
+    position: absolute;
+    left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+    animation: slideOut .7s forwards;
+	
+}
 
-       
+@keyframes slideOut {
+     100% {
+          left: 1000px;
+		 opacity: 0;
+		
+     }
+}
 
-        @keyframes slideOut {
-            100% {
-                left: 500px;
-            }
-        }
 
 div #img1 {
 	background-image: url(../img/mockup-863469_1920.jpg);
@@ -166,11 +176,9 @@ div #img4 {
 
 div .part {
 	width: 500px;
-	float: left;
 	text-align: center;
 	padding: 10px;
 	margin-top: 50px;
-	margin-left: 470px;
 	border: 1px groove;
 	background-color: #F5F5F5;
 	color: #292929;
