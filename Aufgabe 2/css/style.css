@@ -114,24 +114,28 @@ div #img1 {
 	background-image: url(../img/mockup-863469_1920.jpg);
 	background-position: center; 
 	background-size: cover;
+	transition: opacity .5s ease-in;
 }
 
 div #img2 {
 	background-image: url(../img/board-453758_1920.jpg);
 	background-position: center;
 	background-size: cover;
+	transition: opacity .5s ease-in;
 }
 
 div #img3 {
 	background-image: url(../img/digital-marketing-1433427_1920.jpg);
 	background-position: center;
 	background-size: cover;
+	transition: opacity .5s ease-in;
 }
 
 div #img4 {
 	background-image: url(../img/action-2277292_1920.jpg);
 	background-position: center;
 	background-size: cover;
+	transition: opacity .5s ease-in;
 }
 
 div .slider-container{
