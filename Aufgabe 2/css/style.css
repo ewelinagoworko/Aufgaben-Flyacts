@@ -110,36 +110,6 @@ section {
 	color: #F5F5F5;	
 }
 
-
-.slide {
-    animation: slide .7s forwards; 
-	 
-}
-
-@keyframes slide {
-    100% {
-        left: 0;
-	
-		
-    }
-}
-
-.slideOut {
-    position: absolute;
-    left: 0px;
-    animation: slideOut .7s forwards;
-	
-}
-
-@keyframes slideOut {
-     100% {
-          left: 1000px;
-		 opacity: 0;
-		
-     }
-}
-
-
 div #img1 {
 	background-image: url(../img/mockup-863469_1920.jpg);
 	background-position: center; 
